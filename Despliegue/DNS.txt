@@ -1,0 +1,18 @@
+DNS
+
+Resolución
+
+
+Nombre de dominio
+
+Niveles de dominio
+
+Zonas de busqueda
+
+Tipos de servidores
+
+Registros
+
+Funcionamiento
+	Consulta recursiva
+	Consulta iterativa
