@@ -1,4 +1,4 @@
-DNS
+# **DNS**
 
 # Resolución
 Es el proceso mediante el cual se traduce un nombre de dominio legible por humanos(www.ubrique.es) en una dirección IP, que es la que realmente utilizan los dispositivos en internet para identificar y comunicarse entre sí.
@@ -41,34 +41,59 @@ Asocia direcciones IP con nombres de dominio.
 ## Las zonas son administradas por servidores DNS autoritativos que contienen los registros DNS relevantes para la resolución de los nombres dentro de esa zona.
 
 # Tipos de servidores
-## Servidor DNS: Traduce nombres de dominio a direcciones IP.
-## Servidor Web: Aloja y entrega sitios web.
-## Servidor de Archivos: Almacena y gestiona archivos.
-## Servidor de Correo: Maneja el envío y recepción de correos electrónicos.
-## Servidor de Base de Datos: Almacena y gestiona bases de datos.
-## Servidor Proxy: Actúa como intermediario para mejorar seguridad o rendimiento.
-## Servidor de Aplicaciones: Ejecuta aplicaciones empresariales o software.
-## Servidor FTP: Facilita la transferencia de archivos mediante FTP.
-## Servidor DHCP: Asigna automáticamente direcciones IP en redes locales.
-## Servidor de Juegos: Permite partidas multijugador en línea.
-## Servidor de Virtualización: Ejecuta múltiples máquinas virtuales en un solo equipo.
-## Servidor de Medios: Almacena y distribuye contenido multimedia.
-## Servidor de Impresión: Gestiona trabajos de impresión en una red.
-## Servidor de Mensajería: Facilita el envío y recepción de mensajes en tiempo real.
-## Servidor de Seguridad: Protege la red (firewall) o permite conexiones seguras (VPN).
-## Servidor NTP: Sincroniza la hora en dispositivos de la red.
 Cada servidor está diseñado para un servicio o función específica dentro de una red o en Internet.
+## Servidor DNS
+Traduce nombres de dominio a direcciones IP.
+## Servidor Web
+Aloja y entrega sitios web.
+## Servidor de Archivos
+Almacena y gestiona archivos.
+## Servidor de Correo
+Maneja el envío y recepción de correos electrónicos.
+## Servidor de Base de Datos
+Almacena y gestiona bases de datos.
+## Servidor Proxy
+Actúa como intermediario para mejorar seguridad o rendimiento.
+## Servidor de Aplicaciones
+Ejecuta aplicaciones empresariales o software.
+## Servidor FTP
+Facilita la transferencia de archivos mediante FTP.
+## Servidor DHCP
+Asigna automáticamente direcciones IP en redes locales.
+## Servidor de Juegos
+Permite partidas multijugador en línea.
+## Servidor de Virtualización
+Ejecuta múltiples máquinas virtuales en un solo equipo.
+## Servidor de Medios
+Almacena y distribuye contenido multimedia.
+## Servidor de Impresión
+Gestiona trabajos de impresión en una red.
+## Servidor de Mensajería
+Facilita el envío y recepción de mensajes en tiempo real.
+## Servidor de Seguridad
+Protege la red (firewall) o permite conexiones seguras (VPN).
+## Servidor NTP
+Sincroniza la hora en dispositivos de la red.
 
 # Registros
-## A (Address Record): Asocia un dominio con una dirección IPv4.
-## AAAA: Asocia un dominio con una dirección IPv6.
-## CNAME (Canonical Name): Redirige un dominio a otro dominio.
-## MX (Mail Exchange): Especifica los servidores de correo para un dominio.
-## PTR (Pointer Record): Utilizado para la resolución inversa (IP a nombre de dominio).
-## NS (Name Server): Indica los servidores DNS autoritativos de un dominio.
-## TXT: Almacena texto útil para diversos propósitos, como verificaciones de seguridad (por ejemplo, SPF, DKIM).
-## SOA (Start of Authority): Proporciona información sobre la zona DNS y el servidor principal responsable.
 Estos registros permiten la resolución y funcionamiento de los dominios en Internet.
+## A (Address Record)
+Asocia un dominio con una dirección IPv4.
+## AAAA
+Asocia un dominio con una dirección IPv6.
+## CNAME (Canonical Name)
+Redirige un dominio a otro dominio.
+## MX (Mail Exchange)
+Especifica los servidores de correo para un dominio.
+## PTR (Pointer Record)
+Utilizado para la resolución inversa (IP a nombre de dominio).
+## NS (Name Server)
+Indica los servidores DNS autoritativos de un dominio.
+## TXT
+Almacena texto útil para diversos propósitos, como verificaciones de seguridad (por ejemplo, SPF, DKIM).
+## SOA (Start of Authority)
+Proporciona información sobre la zona DNS y el servidor principal responsable.
+
 
 # Funcionamiento
 ## Consulta recursiva
