@@ -1,5 +1,5 @@
 # Instalación de Bind9
-Instalamos bind9  con los siguientes comandos:
+Instalamos bind9  con los siguientes comandos: \n
 sudo apt update
 sudo apt install bind9 bind9utils bind9-doc -y
 
